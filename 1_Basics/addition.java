@@ -1,13 +1,13 @@
-public class addition {
+public class Addition {
 
     public static int sum(int a, int b) {
-        int sum = a + b;
-        return sum;
+        return a + b;
     }
+
     public static void main(String[] args) {
         int a = 5;
         int b = 10;
-        int addition = sum(a, b);
-        System.out.println(addition);
+        int sumResult = sum(a, b);
+        System.out.println(sumResult);
     }
 }
